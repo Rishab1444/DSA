@@ -1,18 +1,29 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.Iterator;
+import java.util.*;
 
 public class main {
     public static void main(String[] args) {
+        int transaction [] = new int[100];
 
-        Deque<Integer> a =new ArrayDeque<>();
-        a.add(197);
-        a.add(123);
-        a.add(169);
-        Iterator v = a.descendingIterator();
-        while (v.hasNext())
+
+        }
+        static void transact(int a[],int n)
         {
-            System.out.println(v.next());
+            PriorityQueue<Integer> q1 = new PriorityQueue<>();
+            for(int i :a)
+            {
+                q1.add(i);
+                q1.add(0);
+
+            }
+            for(int i =0;i<q1.size();i++)
+            {
+                int l = q1.poll();
+                int r = q1.poll();
+                int sum = 0;
+                sum = l+r;
+                ans = ans + sum;
+                q1.add
+            }
         }
     }
-}
+

@@ -1,4 +1,4 @@
-package main.bfs;
+package main.alogorithm;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -22,6 +22,8 @@ public class bfs {
         queue.add(source);
         while (!queue.isEmpty())
         {
+            int curr = queue.remove();
+            
 
         }
     }
