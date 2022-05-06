@@ -17,4 +17,16 @@ public class kadane {
         }
         return  max;
     }
+//    better then kadane algorithm
+    int sumofsubarray(int a[])
+    {
+        int max =a[0];
+        int sum = a[0];
+        for(int i  =1;i<a.length;i++)
+        {
+            max = Math.max(max,max + a[i]);
+            sum = Math.max(sum,max);
+        }
+        return  sum;
+    }
 }
