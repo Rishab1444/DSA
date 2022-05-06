@@ -23,7 +23,7 @@ public class bfs {
         while (!queue.isEmpty())
         {
             int curr = queue.remove();
-            
+
 
         }
     }
