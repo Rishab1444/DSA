@@ -1,4 +1,4 @@
-package main.alogorithm;
+package main.codesignal;
 
 public class suminRange {
     public  int range(int a[],int [][]b,int v)

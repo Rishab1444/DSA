@@ -1,4 +1,4 @@
-package main.alogorithm;
+package main.codesignal;
 
 import java.util.HashSet;
 
